@@ -4,6 +4,7 @@ metadata:
   name: nationalparks-py
   labels: 
     backstage.io/kubernetes-id: nationalparks-py
+    component: nationalparks-py
   annotations:
     github.com/project-slug: divyanshiGupta/nationalparks-py
     backstage.io/kubernetes-id: nationalparks-py
