@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nationalparks-py
+  annotations:
+    github.com/project-slug: divyanshiGupta/nationalparks-py
+spec:
+  type: other
+  lifecycle: unknown
+  owner: default
