@@ -1,4 +1,32 @@
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: temp-team-a
+  description: Temp Team A
+  annotations:
+    github.com/team-slug: temp-demo-organisation/temp-team-a
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-a@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25=
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: divyanshigupta
+  annotations:
+    github.com/user-login: divyanshiGupta
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: breanna-davison@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [temp-team-a]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: nationalparks-py
@@ -11,4 +39,4 @@ metadata:
 spec:
   type: service
   lifecycle: unknown
-  owner: default
+  owner: temp-team-a
