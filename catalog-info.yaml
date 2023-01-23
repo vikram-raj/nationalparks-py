@@ -3,8 +3,6 @@ kind: Group
 metadata:
   name: temp-team-a
   description: Temp Team A
-  annotations:
-    github.com/team-slug: temp-demo-organisation/temp-team-a
 spec:
   type: team
   profile:
