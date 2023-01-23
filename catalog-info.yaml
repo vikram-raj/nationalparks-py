@@ -17,8 +17,6 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: divyanshigupta
-  annotations:
-    github.com/user-login: divyanshiGupta
 spec:
   profile:
     # Intentional no displayName for testing
