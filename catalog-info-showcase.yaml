@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-showcase
+  name: backstage-showcase-app
   labels: 
-    component: backstage-showcase
+    component: backstage-showcase-app
   annotations:
     github.com/project-slug: divyanshiGupta/backstage-showcase
-    backstage.io/kubernetes-id: backstage-showcase
+    backstage.io/kubernetes-id: backstage-showcase-app
 spec:
   type: website
   lifecycle: unknown
