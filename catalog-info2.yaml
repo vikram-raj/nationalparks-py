@@ -9,6 +9,7 @@ metadata:
     backstage.io/kubernetes-id: nationalparks-py
     quay.io/repository-slug: divyanshiGupta/nationalparks-py,
     janus-idp.io/tekton-enabled : 'true'
+    janus-idp.io/tekton : nationalparks-py
 spec:
   type: service
   lifecycle: unknown
