@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nationalparks-py
+  name: nationalparks-py-2
   labels: 
-    component: nationalparks-py
+    component: nationalparks-py-2
   annotations:
     github.com/project-slug: divyanshiGupta/nationalparks-py
     backstage.io/kubernetes-id: nationalparks-py
