@@ -7,7 +7,7 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: divgupta@redhat.com
+    email: divyanshigupta3295@gmail.com
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -17,7 +17,7 @@ metadata:
 spec:
   profile:
     # Intentional no displayName for testing
-    email: divgupta@redhat.com
+    email: divyanshigupta3295@gmail.com
   memberOf: [temp-team-a]
 ---
 apiVersion: backstage.io/v1alpha1
