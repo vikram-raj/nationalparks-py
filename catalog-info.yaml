@@ -20,6 +20,17 @@ spec:
     email: divyanshigupta3295@gmail.com
   memberOf: [temp-team-a]
 ---
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: divs258
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: divs258@gmail.com
+  memberOf: [temp-team-a]
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
